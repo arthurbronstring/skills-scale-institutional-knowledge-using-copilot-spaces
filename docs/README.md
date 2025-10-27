@@ -6,7 +6,7 @@ Welcome to the OctoAcme Project Management documentation. This guide provides co
 
 OctoAcme follows a customer-first, iterative approach to project delivery that emphasizes clear ownership, data-informed decisions, and psychological safety. Our project management methodology is built on five core principles: prioritizing customer value, delivering small testable increments, maintaining clear ownership with named Project Managers and Product Leads, making data-informed decisions, and encouraging feedback and learning in a safe environment. Each project flows through a structured lifecycle—from initiation where we validate business needs and align stakeholders, through planning where we break work into actionable increments, into execution where teams build and test features, through release and deployment to production, and finally into retrospectives where we capture learnings and drive continuous improvement.
 
-Our project teams are organized around clearly defined roles and responsibilities. Project Managers coordinate delivery activities, manage schedules and risks, and facilitate cross-team communication. Product Managers define what should be built, prioritize the roadmap based on customer value, and measure success through defined metrics. Developers implement features with a focus on maintainability and test coverage, while QA and Testing specialists validate quality and acceptance criteria. Stakeholders provide critical inputs and approvals throughout the project lifecycle. This clear delineation of roles ensures accountability while promoting effective collaboration across functions.
+Our project teams are organized around clearly defined roles and responsibilities. Project Managers coordinate delivery activities, manage schedules and risks, and facilitate cross-team communication. Product Managers define what should be built, prioritize the roadmap based on customer value, and measure success through defined metrics. Developers implement features with a focus on maintainability and test coverage, while QA Automation Engineers design and maintain automated test suites to ensure quality at scale. UX Designers ensure user experience best practices are applied throughout the project lifecycle. Scrum Masters facilitate Agile ceremonies and remove team impediments. Business Analysts translate business requirements into actionable deliverables. This clear delineation of roles ensures accountability while promoting effective collaboration across functions. For complete role definitions, interactions, and onboarding guidance, see the [Roles and Personas](octoacme-roles-and-personas.md) document.
 
 Communication and transparency are fundamental to our approach. Teams maintain a consistent rhythm with daily 15-minute standups focusing on progress and blockers, twice-weekly delivery syncs for detailed updates, weekly alignment meetings between Project Managers and Product Managers, and monthly stakeholder updates. We maintain a single source of truth for project status through project READMEs and centralized documentation. When issues arise, clear escalation paths ensure problems are addressed quickly—from team-level triage to PM coordination to Product Lead involvement, and ultimately to sponsor-level escalation for business-critical matters.
 
@@ -17,7 +17,8 @@ Quality assurance is embedded throughout our delivery process. We enforce rigoro
 ### Core Process Documents
 
 - **[Project Management Overview](octoacme-project-management-overview.md)** - Introduction to OctoAcme's project management approach, principles, roles, and key artifacts
-- **[Roles and Personas](octoacme-roles-and-personas.md)** - Detailed definitions of team roles including Developers, Product Managers, and Project Managers
+- **[Roles and Personas](octoacme-roles-and-personas.md)** - Detailed definitions of team roles including Developers, Product Managers, Project Managers, UX Designers, Scrum Masters, QA Automation Engineers, and Business Analysts (Enhanced with role interactions and onboarding checklist - Issue #4)
+- **[Stakeholder Mapping Template](stakeholder-mapping-template.md)** - Template for identifying and managing project stakeholders (New - Issue #4)
 
 ### Project Lifecycle
 
@@ -61,3 +62,7 @@ These documents are living guides that evolve based on team feedback and learnin
 ---
 
 For questions or support, reach out to your Project Manager or consult the relevant process document above.
+
+---
+
+_Last updated: 2025-10-27 | Enhanced with additional roles, templates, and cross-references per Issue #4_

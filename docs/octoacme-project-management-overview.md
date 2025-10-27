@@ -14,11 +14,17 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **QA/Testing**: validate quality and acceptance criteria.
+- **UX Designer**: ensures user experience best practices and designs intuitive interfaces.
+- **Scrum Master**: facilitates Agile ceremonies and removes team impediments.
+- **QA Automation Engineer**: develops and maintains automated test suites.
+- **Business Analyst**: translates business requirements into actionable deliverables.
+- **Stakeholders**: provide inputs and approvals.
+
+For detailed role definitions and interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +50,8 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Refer to [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md) for role onboarding and interaction details.
+
+---
+
+_Related to: Issue #4 - Enhanced role definitions and cross-references_

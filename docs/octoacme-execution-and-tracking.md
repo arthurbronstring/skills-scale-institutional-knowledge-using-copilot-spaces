@@ -4,9 +4,9 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
-- Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Daily standups (15 min) — facilitated by Scrum Master; focus on progress, blockers, dependencies
+- Weekly delivery sync — led by Project Manager; show progress, updates, and flagged risks
+- Demo/Review at the end of each sprint or milestone — Product Manager and UX Designer present to stakeholders
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -17,11 +17,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (Developers)
+- Integration tests where applicable (Developers and QA Automation Engineers)
+- End-to-end smoke tests for critical flows before release (QA Automation Engineers)
+- Security scanning in CI (automated with QA oversight)
+- Manual QA for feature acceptance when needed (QA/Testing with UX Designer for usability validation)
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -38,3 +38,17 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+
+### Role Responsibilities in Execution
+- **Developers**: Write code, create PRs, conduct code reviews, implement fixes
+- **Scrum Master**: Facilitates daily standups, tracks sprint progress, removes blockers
+- **Project Manager**: Monitors overall progress, manages risks, coordinates stakeholders
+- **QA Automation Engineers**: Runs automated tests, reports quality metrics, validates releases
+- **UX Designer**: Reviews implemented features for design fidelity, supports UAT
+- **Product Manager**: Validates features against acceptance criteria, provides business feedback
+
+For detailed role interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+---
+
+_Related to: Issue #4 - Enhanced role clarity during execution phase_

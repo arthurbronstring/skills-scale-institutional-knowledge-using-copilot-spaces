@@ -36,3 +36,17 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Notable changes:
 - Migration steps (if any):
 - Known issues:
+
+### Role Responsibilities in Release
+- **Project Manager**: Coordinates release timing and stakeholder communication
+- **Developers**: Ensure code is merge-ready and assist with deployment troubleshooting
+- **QA Automation Engineers**: Execute final smoke tests and validate deployment success
+- **Product Manager**: Reviews release notes and approves go-live decision
+- **UX Designer**: Validates user-facing changes in production environment
+- **Scrum Master**: Facilitates release retrospective and captures lessons learned
+
+For detailed role interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+---
+
+_Related to: Issue #4 - Enhanced role clarity in release and deployment_
