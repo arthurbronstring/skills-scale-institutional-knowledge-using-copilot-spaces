@@ -14,10 +14,10 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Minimum Deliverables
 - Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
+- Stakeholder list & communication plan (see [stakeholder-mapping-template.md](./stakeholder-mapping-template.md))
 - High-level timeline and key milestones
 - Initial risk list
-- Resource needs (team roles, rough effort estimate)
+- Resource needs (team roles, rough effort estimate - refer to [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md) for role definitions)
 
 ## Project One-pager Template
 - Project name:
@@ -41,3 +41,15 @@ Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+
+### Role Responsibilities in Initiation
+- **Product Manager**: Defines problem statement, success metrics, and initial scope
+- **Project Manager**: Creates timeline, identifies stakeholders, and facilitates kickoff
+- **Business Analyst**: Supports requirements gathering and stakeholder analysis
+- **Scrum Master**: Prepares team for sprint structure and identifies potential impediments
+
+For detailed role interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+---
+
+_Related to: Issue #4 - Enhanced role clarity and cross-references_

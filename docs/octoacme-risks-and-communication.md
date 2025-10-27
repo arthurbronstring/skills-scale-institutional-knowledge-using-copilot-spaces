@@ -40,3 +40,16 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+### Role Responsibilities in Risk Management
+- **Project Manager**: Maintains risk register, coordinates escalations, ensures stakeholder communication
+- **Scrum Master**: Identifies team-level impediments, facilitates risk discussions in retrospectives
+- **Business Analyst**: Identifies business and requirements-related risks during analysis
+- **QA Automation Engineers**: Reports quality and testing risks, tracks defect trends
+- **Developers**: Escalates technical risks and dependencies
+
+For detailed role interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+---
+
+_Related to: Issue #4 - Enhanced role clarity in risk and communication management_

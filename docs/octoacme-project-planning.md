@@ -9,12 +9,12 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Align timelines, releases, and responsibilities
 
 ## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+1. Kickoff meeting with stakeholders and delivery team (facilitated by Project Manager and/or Scrum Master)
+2. Create prioritized backlog with acceptance criteria (led by Product Manager with Business Analyst support)
+3. Estimate scope (T-shirt sizing or story points - Developers with Scrum Master facilitation)
+4. Define Definition of Done (DoD) (collaborative across Developers, QA Automation Engineers, and Product Manager)
+5. Identify dependencies and integration points (Project Manager with input from all technical roles)
+6. Create release plan and milestone map (Project Manager with Product Manager)
 
 ## Backlog Item Template
 - Title:
@@ -41,3 +41,18 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+
+### Role Responsibilities in Planning
+- **Product Manager**: Prioritizes backlog and defines acceptance criteria
+- **Project Manager**: Creates project plan, manages dependencies, facilitates kickoff
+- **Scrum Master**: Facilitates sprint planning and estimation sessions
+- **Developers**: Provide effort estimates and identify technical dependencies
+- **UX Designer**: Reviews user stories for design needs and creates early prototypes
+- **QA Automation Engineer**: Develops initial test strategy and automation plan
+- **Business Analyst**: Documents detailed requirements and validates backlog completeness
+
+For detailed role interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+---
+
+_Related to: Issue #4 - Enhanced role clarity throughout project lifecycle_
